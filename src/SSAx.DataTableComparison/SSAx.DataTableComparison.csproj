@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <Authors>Joseph Amalfitano</Authors>
+    <Company>Social Security Administration</Company>
+    <Product>SSA DataTable Comparer</Product>
+    <Description>A .NET Standard 2.0 class library that allows for the comparison of the data and structure in two or more System.DataTable objects, with a focus on data comparison. Table structures do not have to be identical, but they need to have the same primary key structure.</Description>
+    <RepositoryUrl>https://github.com/SSAgov/ssax-datatable-comparer</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/SSAgov/ssax-datatable-comparer/blob/master/LICENSE</PackageLicenseUrl>
+    <PackageTags>DataTable;Comparison</PackageTags>
+    <Version>0.1.0</Version>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Reference Include="SSAx.PrimitiveExtensions">
+      <HintPath>..\..\..\ssax-primitive-extensions\src\SSAx.PrimitiveExtensions\bin\Debug\netstandard2.0\SSAx.PrimitiveExtensions.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+</Project>
