@@ -24,10 +24,9 @@ Table_1
 | 2 | Samone       | Smith      |
 | 3 | James        | Bond       |
 
-
 Datatable Comparer Result
 
-| ID | Exists In Table | Exists In Table_1 | Exists In Status | First_Name Status | Last_Name Status | First_Name_Table | First_Name_Table_1 | Last_Name_Table | Last_Name_Table_1 |
+| ID | Exists_In_Table | Exists_In Table_1 | Exists_In_Status | First_Name_Status | Last_Name Status | First_Name_Table | First_Name_Table_1 | Last_Name_Table | Last_Name_Table_1 |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Yes | Yes | In sync | In sync | In sync | Joe | Joe | Smith | Smith |
 | 2 | Yes | Yes | In sync | **_`Out of sync`_** | In sync | Beatrice | Samone | Smith | Smith |
