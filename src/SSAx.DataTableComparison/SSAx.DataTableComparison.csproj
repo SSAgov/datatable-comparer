@@ -3,7 +3,7 @@
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
     <Authors>Joseph Amalfitano</Authors>
     <Company>Social Security Administration</Company>
     <Product>SSA DataTable Comparer</Product>
@@ -11,13 +11,11 @@
     <RepositoryUrl>https://github.com/SSAgov/ssax-datatable-comparer</RepositoryUrl>
     <PackageLicenseUrl>https://github.com/SSAgov/ssax-datatable-comparer/blob/master/LICENSE</PackageLicenseUrl>
     <PackageTags>DataTable;Comparison</PackageTags>
-    <Version>0.1.0</Version>
+    <Version>1.0.0</Version>
   </PropertyGroup>
 
   <ItemGroup>
-    <Reference Include="SSAx.PrimitiveExtensions">
-      <HintPath>..\..\..\ssax-primitive-extensions\src\SSAx.PrimitiveExtensions\bin\Debug\netstandard2.0\SSAx.PrimitiveExtensions.dll</HintPath>
-    </Reference>
+    <PackageReference Include="SSAx.PrimitiveExtensions" Version="1.0.6" />
   </ItemGroup>
 
 </Project>

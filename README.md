@@ -3,6 +3,12 @@
 
 A .NET Standard 2.0 class library that allows for the comparison of the data and structure in two or more System.DataTable objects, with a focus on data comparison. Table structures do not have to be identical, but they need to have the same primary key structure.
 
+## NuGet Package
+
+This library is available as a compiled package is on Nuget.org
+
+https://www.nuget.org/packages/SSAx.DataTableComparison/
+
 ## Example
 
 In the example below are two tables. The row 2 First_Name is different (Table->"Beatice", Table_1->"Samone").
