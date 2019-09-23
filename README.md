@@ -7,7 +7,7 @@ A .NET Standard 2.0 class library that allows for the comparison of the data and
 
 This library is available as a compiled package is on Nuget.org
 
-https://www.nuget.org/packages/SSAx.DataTableComparison/
+<https://www.nuget.org/packages/DataTableComparison/>
 
 ## Example
 
