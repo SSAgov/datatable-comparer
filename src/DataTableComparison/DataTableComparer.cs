@@ -1,4 +1,4 @@
-﻿using SSAx.PrimitiveExtensions;
+﻿using PrimitiveExtensions;
 using System;
 using System.Collections.Generic;
 using System.Data;
