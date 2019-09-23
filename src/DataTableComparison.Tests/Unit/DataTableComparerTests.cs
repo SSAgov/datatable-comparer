@@ -6,7 +6,7 @@ using System.Linq;
 using System.Text;
 using Xunit;
 
-namespace SSAx.DataTableComparison.Tests.Unit
+namespace DataTableComparison.Tests.Unit
 {
     public class DataTableComparerTests
     {
@@ -171,7 +171,7 @@ namespace SSAx.DataTableComparison.Tests.Unit
             Assert.Equal(2, dataTable.Rows.Count);
         }
         [Fact]
-        public void GetResultsDataTable_TwoTablesWithSameData_Expect_3_rows_6_columns()
+        public void GetResultsDataTable_TwoTablesOneHasExtraRow_Expect_3()
         {
             DataTableComparerConfig config = new DataTableComparerConfig();
             config.InSyncPhrase = "true";
